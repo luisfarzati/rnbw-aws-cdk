@@ -1,0 +1,32 @@
+{
+  "name": "@rnbw/cra-template-aws-cdk-example",
+  "description": "Example React app using CRA and AWS CDK",
+  "version": "0.1.0",
+  "author": "Luis Farzati <lfarzati@gmail.com>",
+  "keywords": [
+    "aws",
+    "cdk",
+    "aws-cdk",
+    "cloudformation"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "1.19.0",
+    "@aws-cdk/aws-lambda": "1.19.0",
+    "@aws-cdk/aws-ssm": "1.19.0",
+    "@aws-cdk/core": "1.19.0"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.19.0",
+    "@types/aws-lambda": "8.10.39",
+    "@types/jest": "24.0.25",
+    "@types/node": "13.1.4",
+    "typescript": "3.7.4"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "test": "jest src/**"
+  }
+}

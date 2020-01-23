@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@rnbw/aws-cdk-s3-website": "0.1.0",
+    "@aws-cdk/core": "1.19.0",
+    "@aws-cdk/assert": "1.19.0",
+    "aws-cdk": "1.19.0"
+  },
+  "scripts": {
+    "deploy": "cdk deploy",
+    "test:deploy": "jest cdk"
+  }
+}

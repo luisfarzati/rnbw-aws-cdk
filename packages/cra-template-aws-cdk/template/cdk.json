@@ -1,0 +1,7 @@
+{
+  "app": "node cdk/index.js",
+  "context": {
+    "zoneDomain": "",
+    "domain": ""
+  }
+}

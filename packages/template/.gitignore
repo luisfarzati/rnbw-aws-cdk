@@ -1,0 +1,11 @@
+# dependencies
+node_modules
+
+# example files
+examples/**/.cdk.staging
+examples/**/cdk.out
+examples/**/__snapshots__
+
+# misc
+.DS_Store
+*.log

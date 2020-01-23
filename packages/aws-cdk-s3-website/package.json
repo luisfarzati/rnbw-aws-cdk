@@ -1,0 +1,47 @@
+{
+  "name": "@rnbw/aws-cdk-s3-website",
+  "description": "CDK constructs for building S3-hosted websites",
+  "version": "0.1.0",
+  "author": "Luis Farzati <lfarzati@gmail.com>",
+  "keywords": [
+    "aws",
+    "cdk",
+    "aws-cdk",
+    "cloudformation",
+    "acm",
+    "route53",
+    "cloudfront",
+    "s3"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=10.3.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "test": "jest src/**"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudfront": "1.19.0",
+    "@aws-cdk/aws-route53": "1.19.0",
+    "@aws-cdk/aws-route53-targets": "1.19.0",
+    "@aws-cdk/aws-certificatemanager": "1.19.0",
+    "@aws-cdk/aws-s3": "1.19.0",
+    "@aws-cdk/aws-s3-deployment": "1.19.0",
+    "@aws-cdk/core": "1.19.0",
+    "@rnbw/aws-cdk-static-website": "0.1.0"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.19.0",
+    "@types/aws-lambda": "8.10.39",
+    "@types/jest": "24.0.25",
+    "@types/node": "13.1.4",
+    "ts-jest": "24.2.0",
+    "typescript": "3.7.4"
+  }
+}

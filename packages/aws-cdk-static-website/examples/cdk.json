@@ -1,0 +1,7 @@
+{
+  "app": "node index.js",
+  "context": {
+    "zoneDomain": "boilerplates.de",
+    "domain": "rnbw-aws-cdk-static-website.boilerplates.de"
+  }
+}

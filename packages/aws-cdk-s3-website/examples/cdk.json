@@ -1,0 +1,8 @@
+{
+  "app": "node index.js",
+  "context": {
+    "zoneDomain": "boilerplates.de",
+    "domain": "rnbw-aws-cdk-s3-website.boilerplates.de",
+    "sourcePath": "./public"
+  }
+}

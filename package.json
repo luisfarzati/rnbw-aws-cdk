@@ -1,0 +1,7 @@
+{
+  "name": "@rnbw/aws",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

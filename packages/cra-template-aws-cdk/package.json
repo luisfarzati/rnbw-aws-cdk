@@ -1,0 +1,34 @@
+{
+  "name": "@rnbw/cra-template-aws-cdk",
+  "description": "CRA template for creating AWS S3-hosted apps",
+  "version": "0.1.2",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "aws",
+    "cdk",
+    "aws-cdk",
+    "s3",
+    "cloudfront",
+    "rnbw"
+  ],
+  "main": "template.json",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rnbwjs/aws",
+    "directory": "packages/cra-template-aws-cdk"
+  },
+  "bugs": "https://github.com/rnbwjs/aws/issues",
+  "engines": {
+    "node": ">=10.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

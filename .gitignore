@@ -1,0 +1,6 @@
+.DS_Store
+**/node_modules
+**/cdk.out
+**/cdk.context.json
+**/dist
+**/examples/**/__snapshots__
